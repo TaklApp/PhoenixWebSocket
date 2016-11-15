@@ -2,6 +2,11 @@
 
 `PhoenixWebSocket` is a websockets framework designed to work with [Phoenix Framework](https://github.com/phoenixframework/phoenix). It uses [Starscream](https://github.com/daltoniam/Starscream) under the hood.
 
+This Swift 3 fork will allow you to use PhoenixWebSocket as a cocoapod rather than through Carthage. To use as a cocoapod put the following in your podfile:
+```
+pod 'PhoenixWebSocket', :git => 'https://github.com/TaklApp/PhoenixWebSocket.git'
+```
+
 ## Installation
 
 ### Carthage
